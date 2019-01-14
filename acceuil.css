@@ -1,0 +1,303 @@
+<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+}
+#centre ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .navbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #111;
+}
+nav:hover, .navbtn {
+    background-color: #111;
+}
+.nav
+  {
+    display:inline-block;
+  }
+  
+  .sousmenu-content
+  {
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
+    min-width:30px;
+    box-shadow:0px 3px 6px 0px rgba(0,0,0,0.2);
+  }
+  
+  .sousmenu-content a
+  {
+    color:black;
+    padding:3px 5px;
+    text-decoration:none;
+    display:block;
+  }
+  
+  .sousmenu-content a:hover {background-color: #f1f1f1}
+  
+  .nav:hover .sousmenu-content
+  {
+    display:block;
+  }
+  
+.active {
+	border-right:1px solid #bbb;
+    background-color: RGB(55, 82, 151);
+}
+
+.active1 {
+    background-color: #b9b9ff;
+}
+
+
+#centre .recherche{
+	height:50px;
+	width:200px;
+	margin-left:75%;
+	padding-top: 10px;
+}
+#centre .rechercheform{
+	width:100%;
+	top:4px;
+	position: relative;
+}
+.rechercheform>searche:first-of-type{
+	width:400px;
+	
+	border:1px solid #ccc;
+	font-size: 16px;
+}
+
+.rechercheform>searche:first-of-type:focus{
+	border:1px solid #317ef3;
+	padding-left:10px;
+}
+.rechercheform>searche:last-of-type{
+
+	width:100px;
+	height:44px;
+	position:absolute;
+	background: #317ef3;
+	border:1px solid #317ef3;
+	color: #fff;
+	font-size:16px;
+	outline:none;
+}
+
+#centre {
+	height: 719px;
+	width: auto;
+	margin-left:-10px;
+	margin-right:-10px;
+	background-image: url('../images/ciel1.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+}
+#head {
+	height: 120px;
+	width: auto;
+	margin-top:-10px;
+	margin-left:-10px;
+	margin-right:-10px;
+	padding-bottom:20px;
+	background-image: url('../images/ciel4.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	position: relative;
+}
+#foot {
+	width: auto;
+	height: 126px;
+	margin-left:-10px;
+	margin-right:-8px;
+	margin-bottom:10px;
+	position: relative;
+}
+.picture
+{ 
+	border:1px solid ; 
+	width:100%; 
+	height:140px;
+	overflow:hidden;
+} 
+.picture img
+{
+	width:100%;
+} 
+#centre .panel {
+	height: 530px;
+	width: 800px;  
+	position: absolute;
+	background-color: RGB(241, 241, 241);
+	margin-right:10px;
+	margin-bottom: 100px;
+	padding-bottom: 20px;
+  	opacity:0.7;
+	top: 15%;
+	right: 20%;
+}
+.panel .button {
+	width: 101%;
+	height: 45px;
+	background-color: #ee7700;
+	border: none;
+	color: white;
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+.button:hover
+	{
+	background-color: #CC9933;
+	}
+.panel .panelinput.paneltitile .p1 {
+	display: inline-block;
+	font-size: 35px;
+	margin-bottom: 0px;
+	width: 86%;
+}
+#centre .panel .panelinput.paneltitile {
+	width: 86%;
+	border-bottom: 1px solid #ee7700;
+	margin-bottom: 60px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.panel .panelinput i {
+	position: absolute;
+	top: 16px;
+	left: 15px;
+}
+.panel .panelinput .textfield {
+	width: 100%;
+	height: 42px;
+	text-indent: 2.5rem;
+}
+
+#centre .panel .panelinput {
+	
+	width: 80%;
+	height: 466px;
+	margin-left: 80px;
+	margin-top: 10px;
+	padding-bottom: 30px;
+	padding-left:20px;
+	padding-top:10px;
+	margin-right: 10px;
+	font-size: 14px;
+	background-color: RGB(255, 255, 255);
+	position: relative;
+}
+#centre .panel .paneltexte {
+	width: 86%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.panelsite a.reme1 {
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 18px;
+	margin-left:35px ;
+	color: #66CCCC;
+	font-style: italic;
+	
+}
+
+
+.panelsite ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.panelsite ul.pagination li {display: inline;}
+
+.panelsite. ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.panelsite ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.panelsite ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+
+
+
+a.reme1:hover
+	{
+	color:#CC9933;
+	font-size: 20px;
+	}
+	
+.panelsite a.reme2{
+	font-size: 18px;
+	margin-left:175px ;
+	color: #66CCCC;
+	font-style: italic;
+	text-decoration: none;
+	}
+a.reme2:hover
+{
+	color:#CC9933;
+	font-size: 20px;
+	}
+.title {
+	font-family: "SimSun";
+	color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 36px;
+	height: 40px;
+	width: 30%;
+}
+
+.copyright {
+	font-family: "SimSun";
+	color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 60px;
+	width: 40%;
+	text-align:center;
+}
+
+#foot .copyright p {
+	height: 24px;
+	width: 100%;
+}
+</style>
